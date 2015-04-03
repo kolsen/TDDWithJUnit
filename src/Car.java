@@ -43,7 +43,7 @@ public class Car {
 	 */
 	public String toString(){
 		// not implemented!
-		return("");
+		return("Color: " + color + ", Speed: " + speed);
 	}
 
 }
