@@ -46,7 +46,11 @@ public class Car {
 	}
 
 	public void deccelerate(int amount) {
-		this.speed -= amount;
+		if(amount >= this.speed){
+			this.speed = 0;
+		}else{
+			this.speed -= amount;
+		}
 	}
 
 }
